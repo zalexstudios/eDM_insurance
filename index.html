@@ -1,0 +1,1060 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>АО КБ «Ситибанк»</title>
+	<style type="text/css">
+		html {
+			-webkit-text-size-adjust: none;
+			-ms-text-size-adjust: none;
+		}
+
+		body {
+			margin: 0;
+			background-color: #eaeaea;
+			font-family: 'Arial', sans-serif;
+		}
+
+		table {
+			border-spacing: 0;
+		}
+
+		td {
+			padding: 0;
+		}
+
+		img {
+			border: 0;
+		}
+
+		.wrapper {
+			width: 100%;
+			table-layout: fixed;
+			background-color: #eaeaea;
+			padding-bottom: 60px;
+		}
+
+		.main {
+			width: 100%;
+			max-width: 600px;
+			background-color: #ffffff;
+			margin: 0 auto;
+			border-spacing: 0;
+			font-family: sans-serif;
+		}
+
+		.list {
+			font-family: Arial;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 14px;
+			line-height: 21px;
+			letter-spacing: -0.1px;
+			color: #333333;
+		}
+
+		.mb-list-icon {
+			vertical-align: baseline;
+		}
+
+		.litle-line {
+			width: 100%;
+			height: 1px !important;
+			max-width: 80px;
+			min-width: 80px;
+			background-color: #999999;
+		}
+
+		.price-profile__title {
+			font-family: Arial;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 16px;
+			line-height: 21px;
+			text-align: center;
+			letter-spacing: -0.1px;
+			color: #333333;
+		}
+
+		.price-profile__text {
+			font-family: Arial;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 21px;
+			text-align: center;
+			letter-spacing: -0.1px;
+			color: #333333;
+		}
+
+
+		.two-columns {
+			text-align: center;
+			font-size: 0;
+			padding: 30px 0 30px 0;
+		}
+
+		.two-columns .column {
+			width: 100%;
+			max-width: 260px;
+			display: inline-block;
+			vertical-align: top;
+		}
+
+		.two-columns .padding {
+			padding: 15px;
+		}
+
+		.two-columns .content {
+			text-align: center;
+			font-size: 16px;
+			line-height: 21px;
+		}
+
+		.text {
+			font-family: Arial;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 21px;
+			text-align: center;
+			color: #333333;
+		}
+
+		.link-adr {
+			padding: 35px 0 22px 0;
+		}
+
+		.lr-padding {
+			padding-top: 12px;
+			padding-left: 30px;
+			padding-right: 30px;
+			padding-bottom: 30px;
+		}
+
+		.big-lock {
+			font-family: Arial;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 12px;
+			line-height: 16px;
+			letter-spacing: -0.1px;
+			color: #666666;
+		}
+
+		.big-lock__blue {
+			font-family: Arial;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 12px;
+			line-height: 16px;
+			letter-spacing: -0.1px;
+			color: #056dae;
+		}
+
+		.big-lock__text {
+			padding: 0 37px 0px 20px;
+			border-left: 1px solid #D2D2D2;
+		}
+
+		.apps-text {
+			font-family: Arial;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 14px;
+			line-height: 16px;
+			text-align: center;
+			text-transform: uppercase;
+			color: #333333;
+		}
+
+		.two-columns-apps {
+			text-align: center;
+			font-size: 0;
+		}
+
+		.two-columns-apps .column-apps {
+			width: 100%;
+			max-width: 277px;
+			display: inline-block;
+			vertical-align: top;
+		}
+
+		.two-columns-apps .column-apps-soc {
+			width: 100%;
+			max-width: 261px;
+			display: inline-block;
+			vertical-align: top;
+		}
+
+		.pd-apps {
+			padding: 30px 0px 24px 0px;
+		}
+
+		.social-td a {
+			padding-right: 10px;
+		}
+
+		.pd-soc {
+			padding: 30px 0px 24px 30px;
+		}
+
+		.unsub {
+			padding-top: 15px;
+			padding-right: 30px;
+			padding-left: 30px;
+			padding-bottom: 18px;
+		}
+
+		/* test style */
+		.t-columns {
+			text-align: center;
+			font-size: 0;
+			padding: 15px 0 25px;
+		}
+
+		.t-columns .clmn {
+			width: 100%;
+			max-width: 286px;
+			display: inline-block;
+			vertical-align: top;
+			text-align: center;
+		}
+
+		.t-columns .pd {
+			padding: 10px;
+		}
+
+		.t-columns .ctn {
+			font-size: 16px;
+			line-height: 21px;
+			padding: 0 5px;
+		}
+
+		/* test style end */
+		@media screen and (max-width: 599px) {
+			.t-columns .clmn {
+				display: inline;
+				width: 100%;
+				max-width: 300px;
+				vertical-align: top;
+				text-align: center;
+			}
+
+			.mb-list {
+				text-align: center;
+				font-size: 0;
+
+			}
+
+			.mb-list .mb-list-icon {
+				width: 100%;
+				max-width: 40px;
+				display: block !important;
+				margin: 0 auto !important;
+				padding-top: 15px;
+				padding-bottom: 20px !important;
+			}
+
+			.mb-list .mb-list-text {
+				width: 100%;
+				max-width: 425px;
+				display: block;
+				text-align: center;
+				padding-bottom: 20px !important;
+			}
+
+			.list {
+				text-align: left;
+			}
+		}
+
+		@media screen and (max-width: 425px) {
+			.t-columns .clmn {
+				display: inline;
+				width: 100%;
+				max-width: 300px;
+				vertical-align: top;
+				text-align: center;
+			}
+
+			/* test */
+			.mb-center {
+				margin: 0 auto;
+			}
+
+			.list {
+				text-align: left;
+			}
+
+			.mb-list-icon {
+				display: block !important;
+				margin: 0 auto !important;
+				padding-top: 15px;
+				padding-bottom: 20px !important;
+			}
+
+			.mb-list-text {
+				max-width: 425px;
+				display: block;
+				text-align: center;
+			}
+
+			.two-columns {
+				text-align: center;
+				padding: 30px 0 30px 0;
+			}
+
+			.two-columns .column-price {
+				display: block;
+				margin: 0 auto;
+			}
+
+			.two-columns .cont-mob {
+				padding-left: 26px;
+				padding-top: 25px;
+			}
+
+			.two-columns .padding {
+				padding: 0 !important;
+			}
+
+			.two-columns-apps .column-apps {
+				display: block;
+				margin: 0 auto;
+			}
+
+			.two-columns-apps .column-apps-soc {
+				display: block;
+				margin: 0 auto;
+			}
+
+			.pd-soc {
+				width: 100%;
+				max-width: 300px;
+				padding: 30px 0px 24px 30px;
+			}
+
+			.pd-soc .social-td {
+				width: 100%;
+				max-width: 300px;
+			}
+
+			.f-city {
+				display: block;
+				margin: 0 auto;
+				padding-bottom: 20px;
+			}
+
+			.f-city-text {
+				display: block;
+				margin: 0 auto;
+				text-align: center !important;
+			}
+
+		}
+	</style>
+</head>
+
+<body>
+	<!-- Preheader text -->
+	<div style="display: none; max-height: 0; overflow: hidden;">
+		Позаботьтесь о себе и своих близких
+	</div>
+	<!-- Do not edit the div below, it hides other text from showing in preheader using &zwnj;&nbsp; -->
+	<div style="display: none; max-height: 0; overflow: hidden;">
+		&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+	</div>
+	<!-- Preheader text end -->
+	<center class="wrapper">
+		<table class="main" width="100%">
+			<!-- header line -->
+			<tr>
+				<td>
+					<table width="100%">
+						<tr>
+							<td align="center" valign="top">
+								<img src="https://i.postimg.cc/9FxSn36Y/Header.png" width="100%"
+									style="margin:0; padding:0; border:none; display:block;" border="0"
+									class="header-img" alt="header line">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<!-- logo section -->
+			<tr>
+				<td align="left" valign="middle" style="height: 50px;padding-left: 15px;">
+					<img src="https://i.postimg.cc/NMP4FDHY/logo.png" width="35" height="20"
+						style="margin:0; padding:0; border:none; display:block;" border="0" class="img" alt="logo" />
+				</td>
+			</tr>
+			<!-- hero pic -->
+			<tr>
+				<td align="center" valign="top">
+					<img src="https://i.postimg.cc/1XkrczBj/hero.png" width="600"
+						style="margin:0; padding:0; border:none; display:block;width: 100%;height: auto;" border="0"
+						class="img" alt="Hero image" />
+				</td>
+			</tr>
+			<!-- space line 26px -->
+			<tr>
+				<td height="26" style="font-size:26px; line-height:26px;">&nbsp;</td>
+			</tr>
+			<!-- to name -->
+			<tr>
+				<td align="left" valign="top" style="padding-left: 30px;padding-right: 30px;padding-bottom: 20px;">
+					<table width="100%">
+						<tr>
+							<td align="left" valign="top">
+								<span style="font-family: Arial;font-style: normal;font-weight: bold;font-size: 18px;line-height: 21px;
+						color: #333333;">Имя Отчество!</span>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<!-- to name text block -->
+			<tr>
+				<td align="left" valign="top" style="padding-left: 30px;padding-right: 30px;">
+					<table width="100%" cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td align="left" valign="top">
+								<span style="font-family: Arial;font-style: normal;font-weight: normal;font-size: 14px;
+				  line-height: 21px;
+				  color: #333333;">Позаботьтесь о своем здоровье, а также о здоровье Ваших близких!<br /> Оформите комплексную
+									страховую программу «Формула защиты», которая включает в себя
+									лечение критических заболеваний, выплаты при травмах в
+									результате несчастного случая, а также возможность врачебной
+									консультации в любой точке мира. Узнайте больше и подайте
+									заявку на <a style="color: #056dae;text-decoration: none;"
+										href="https://www.google.com/url?q=https://www.citibank.ru/russia/insurance/rus/health_protection.htm?icid%3DRUINUPFRUSMSILI01%23form-section&sa=D&source=editors&ust=1633691536761000&usg=AFQjCNE21GnOj8aRvL3UeRmaOG51KCjMZQ">www.citibank.ru/l/protection</a>.
+									АО КБ «Ситибанк».</span>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<!-- space line 50px -->
+			<tr>
+				<td height="30" style="font-size:30px; line-height:30px;">&nbsp;</td>
+			</tr>
+			<!-- title-1 -->
+			<tr>
+				<td align="center" valign="top" style="padding-bottom: 14px;">
+					<table cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td align="center" valign="top">
+								<span style="font-family: Arial;font-style: normal;font-weight: normal;font-size: 18px;line-height: 24px;
+					  text-align: center;letter-spacing: 2px;text-transform: uppercase;color: #333333;">С «Формулой Защиты» Вам
+									доступно:</span>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<!-- little line -->
+			<tr>
+				<td align="center" valign="top">
+					<table width="80" cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td width="80" height="1" align="center" valign="top">
+								<img src="https://i.postimg.cc/vHMvhPZv/little-line.png" width="80" height="1"
+									alt="little-line" />
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+
+			<!-- space line 14px -->
+			<tr>
+				<td height="14" style="font-size:14px; line-height:14px;">&nbsp;</td>
+			</tr>
+			<!-- list -->
+			<tr>
+				<td align="center" valign="top">
+					<table width="100%" cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td align="center" valign="top" style="padding-left: 30px;padding-right: 30px;">
+								<!-- first list -->
+								<table class="mb-list" width="100%" cellpadding="0" cellspacing="0" border="0">
+									<tr>
+										<td class="mb-list-icon" width="40">
+											<img src="https://i.postimg.cc/7PdFQMQp/travel-plus.png" width="40"
+												height="40" style="margin:0; padding:0; border:none; display:block;"
+												border="0" class="img" alt="travel icon" />
+										</td>
+										<td class="mb-list-text">
+											<span style="font-family: Arial;font-style: normal;font-weight: bold;font-size: 16px;line-height: 21px;
+											letter-spacing: -0.1px;color: #333333;padding-left: 16px;">Лечение критических заболеваний:</span>
+											<ul>
+												<li class="list">злокачественные новообразования, операции,
+													химиотерапия<br />
+													в случае
+													выявления злокачественных новообразований;</li>
+												<li class="list">кардиохирургические и нейрохирургические операции*.
+												</li>
+											</ul>
+										</td>
+									</tr>
+								</table>
+								<!-- second list -->
+								<table class="mb-list" width="100%" cellpadding="0" cellspacing="0" border="0">
+									<tr>
+										<td class="mb-list-icon" width="40">
+											<img src="https://i.postimg.cc/ZnMMkZc8/dollar-check.png" width="40"
+												height="40" style="margin:0; padding:0; border:none; display:block;"
+												border="0" class="img" alt="dollar icon" />
+										</td>
+										<td class="mb-list-text">
+											<span style="font-family: Arial;font-style: normal;font-weight: bold;font-size: 16px;line-height: 21px;
+											letter-spacing: -0.1px;color: #333333;padding-left: 16px;">Выплаты при травмах в результате несчастного
+												случая</span>
+											<ul>
+												<li class="list"> Страховое покрытие действует 24/7 по всему миру.</li>
+											</ul>
+										</td>
+									</tr>
+								</table>
+								<!-- 3 list -->
+								<table class="mb-list" width="100%" class="mb-center" cellpadding="0" cellspacing="0"
+									border="0">
+									<tr>
+										<td class="mb-list-icon" width="40">
+											<img src="https://i.postimg.cc/FKNGB7vt/mobile-hand.png" width="40"
+												height="40" style="margin:0; padding:0; border:none; display:block;"
+												border="0" class="img" alt="mobile-hand icon" />
+										</td>
+										<td class="mb-list-text">
+											<span style="font-family: Arial;font-style: normal;font-weight: bold;font-size: 16px;line-height: 21px;
+											letter-spacing: -0.1px;color: #333333;padding-left: 16px;">Дистанционное консультирование с врачами</span>
+											<ul>
+												<li class="list">Вы сможете связаться даже с узкими специалистами<br />
+													по
+													телефону или, например, через Skype.</li>
+											</ul>
+										</td>
+									</tr>
+								</table>
+								<!-- 4 list -->
+								<table class="mb-list" width="100%" class="mb-center" cellpadding="0" cellspacing="0"
+									border="0">
+									<tr>
+										<td class="mb-list-icon" width="40">
+											<img src="https://i.postimg.cc/Y9SRtZjb/thumb-up.png" width="40" height="40"
+												style="margin:0; padding:0; border:none; display:block;" border="0"
+												class="img" alt="thumb-up icon" />
+										</td>
+										<td class="mb-list-text">
+											<span style="font-family: Arial;font-style: normal;font-weight: bold;font-size: 16px;line-height: 21px;
+											letter-spacing: -0.1px;color: #333333;padding-left: 16px;">Удобство программы</span>
+											<ul>
+												<li class="list">Невысокая стоимость и простая схема оплаты.</li>
+											</ul>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<!-- space 32 px -->
+			<tr>
+				<td height="32" style="font-size:32px; line-height:32px;">&nbsp;</td>
+			</tr>
+
+			<!-- button -->
+			<tr>
+				<td align="center" valign="top">
+					<table cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td align="center" valign="middle" width="220" height="50"
+								style="font-family: Arial, sans-serif; font-size:14px; font-weight:bold;background-color: #002A54;">
+								<a href="https://www.google.com/url?q=https://www.citibank.ru/russia/insurance/rus/health_protection.htm?icid%3DRUINUPFRUMAILLI01&sa=D&source=editors&ust=1633691536764000&usg=AFQjCNG2M4SLUI_bS9wI1Jw2CWcOTiGU7Q"
+									target="_blank"
+									style="font-family: Arial, sans-serif; color:#ffffff; display: inline-block; text-decoration: none; line-height:44px; width:200px; font-weight:bold;">Узнать
+									больше</a>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<!-- space 40px -->
+			<tr>
+				<td height="40" style="font-size:40px; line-height:40px;">&nbsp;</td>
+			</tr>
+			<!-- programm price -->
+			<tr>
+				<td align="center" valign="top" bgcolor="#f2f2f2"
+					style="padding-left: 30px;padding-right: 30px;padding-top: 30px;padding-bottom: 14px;">
+					<table width="100%" cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td align="center" valign="top">
+								<span style="font-family: Arial;font-style: normal;font-weight: normal;font-size: 18px;line-height: 24px;
+					  text-align: center;letter-spacing: 2px;text-transform: uppercase;color: #333333;">Стоимость программы</span>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<!-- little line -->
+			<tr>
+				<td align="center" valign="top" bgcolor="#f2f2f2">
+					<table width="80" cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td width="80" height="1" align="center" valign="top">
+								<img src="https://i.postimg.cc/vHMvhPZv/little-line.png" width="80" height="1"
+									alt="little-line" />
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<!-- test -->
+			<tr>
+				<td align="center" valign="top" bgcolor="#f2f2f2">
+					<table width="100%" align="center">
+						<tr>
+							<td class="t-columns" align="center">
+								<!-- first column -->
+								<table class="clmn" align="center" width="100%">
+									<tr>
+										<td align="center" class="pd">
+											<table class="ctn">
+												<tr>
+													<td align="center" valgn="top">
+														<img src="https://i.postimg.cc/HkQBzbf4/profile.png" width="56"
+															height="56"
+															style="margin:0; padding:0; border:none; display:block;padding-bottom: 10px;"
+															border="0" class="img" alt="profile icon" />
+													</td>
+												</tr>
+												<tr>
+													<td align="center" valgn="top">
+														<span class="price-profile__title">Индивидуальная
+															программа</span><br />
+														<span class="price-profile__text">760/1 100 руб. в мес.*</span>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+								<!-- second column -->
+								<table class="clmn" align="center" width="100%">
+									<tr>
+										<td align="center" class="pd">
+											<table class="ctn">
+												<tr>
+													<td align="center" valgn="top">
+														<img src="https://i.postimg.cc/W48SLTpd/profile-team.png"
+															width="56" height="56"
+															style="margin:0; padding:0; border:none; display:block;padding-bottom: 10px;"
+															border="0" class="img" alt="profile icon" />
+													</td>
+												</tr>
+												<tr>
+													<td align="center" valgn="top">
+														<span class="price-profile__title">Семейная
+															программа</span><br />
+														<span class="price-profile__text">1 600/2 300 руб. в
+															мес.*</span>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<!-- test end -->
+			<!-- link to adress -->
+			<tr>
+				<td class="link-adr" align="center" valign="top">
+					<table width="100%" cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td align="center" valign="top">
+								<span class="text">Оформить полис можно <a style="color: #056dae;text-decoration: none;"
+										href="https://www.google.com/url?q=https://www.citibank.ru/russia/branches/rus/branches.htm?icid%3DRUINUPFRUMAIlLI03&sa=D&source=editors&ust=1633691536755000&usg=AFQjCNHYMYpj9TOOMkpfKEUpXblhCnRThQ">в
+										любом из
+										наших
+										отделений.</a></span>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<!-- button order -->
+			<tr>
+				<td align="center" valign="top" style="padding-bottom: 42px;">
+					<table cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td align="center" valign="middle" width="220" height="50"
+								style="font-family: Arial, sans-serif; font-size:14px; font-weight:bold;background-color: #002A54;">
+								<a href="https://www.google.com/url?q=https://www.citibank.ru/russia/insurance/rus/health_protection.htm?icid%3DRUINUPFRUMAIlLI02%23form-section&sa=D&source=editors&ust=1633691536759000&usg=AFQjCNGWDzsrexiFW2y3twyY1rt6hn7qOg"
+									target="_blank"
+									style="font-family: Arial, sans-serif; color:#ffffff; display: inline-block; text-decoration: none; line-height:44px; width:200px; font-weight:bold;">Оставьте
+									заявку</a>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<!-- seporate line -->
+			<tr>
+				<td align="center" valign="top">
+					<table width="100%" align="center" cellpadding="0" cellspacing="0" border="0"
+						style="max-width: 540px;">
+						<tr>
+							<td height="1" style="font-size:1px; line-height:1px;background-color: #bfbfbf;">&nbsp;</td>
+						</tr>
+					</table>
+
+				</td>
+			</tr>
+			<!-- spce line 30px -->
+			<tr>
+				<td height="30" style="font-size:30px; line-height:30px;">&nbsp;</td>
+			</tr>
+			<!-- heart pic -->
+			<tr>
+				<td align="center" valign="top" style="padding-bottom: 10px;">
+					<table width="100%">
+						<tr>
+							<td align="center" valign="top">
+								<img src="https://i.postimg.cc/Prv6Lgy7/like-circle.png" width="56" height="56"
+									style="margin:0; padding:0; border:none; display:block;" border="0"
+									class="heart-img" alt="Heart" />
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<!-- title-wishes -->
+			<tr>
+				<td align="center" valign="top" style="padding-bottom: 14px;">
+					<table width="100%">
+						<tr>
+							<td align="center" valign="top">
+								<span style="font-family: Arial;font-style: normal;font-weight: normal;font-size: 18px;line-height: 24px;
+						text-align: center;letter-spacing: 2px;text-transform: uppercase;color: #333333;">Желаем Вам крепкого
+									здоровья!</span>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<!-- little line -->
+			<tr>
+				<td align="center" valign="top" style="padding-bottom: 40px;">
+					<table width="80" cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td width="80" height="1" align="center" valign="top">
+								<img src="https://i.postimg.cc/vHMvhPZv/little-line.png" width="80" height="1"
+									alt="little-line" />
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<!-- your city bank -->
+			<tr>
+				<td align="left" valign="top" style="padding-left: 30px;padding-bottom: 21px;">
+					<table width="100%" cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td align="left" valign="top">
+								<span style="font-family: Arial;font-style: normal;font-weight: normal;font-size: 16px;line-height: 21px;
+					  color: #333333;">Ваш Ситибанк.</span>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<!-- picture of bank -->
+			<tr>
+				<td align="center" valign="top">
+					<img src="https://i.postimg.cc/k4jj89L0/city-bank.png" width="600"
+						style="margin:0; padding:0; border:none; display:block;width: 100%;height: auto;" border="0"
+						class="city-img" alt="Logo of city bank" />
+				</td>
+			</tr>
+			<!-- little text -->
+			<tr>
+				<td align="left" valign="top"
+					style="padding-top: 20px;padding-left: 30px;padding-right: 30px;padding-bottom: 12px;">
+					<span
+						style="font-family: Arial;font-style: normal;font-weight: normal;font-size: 12px;line-height: 14px;color: #666666;padding-bottom: 3px;">*
+						В зависимости от выбранного тарифного плана. Подробное описание программ можно найти в Правилах
+						страхования и Медицинских программах.</span><br />
+				</td>
+			</tr>
+			<tr>
+				<td align="left" valign="top" style="padding-left: 30px;padding-right: 30px;padding-bottom: 12px;">
+					<span
+						style="font-family: Arial;font-style: normal;font-weight: normal;font-size: 12px;line-height: 14px;color: #666666;">Программа
+						«Формула защиты» является предложением ООО «Страховая компания «СиВ Лайф» (лицензии
+						Банка России от 19.05.2017: СЖ № 4105, СЛ № 4105). АО КБ «Ситибанк» является агентом
+						страховщика, комиссионное вознаграждение за предоставление услуг агента с физического лица
+						не взимается. АО КБ «Ситибанк», корпорация Citigroup Inc. или другие аффилированные с ними лица,
+						государственные органы и Российская Федерация не несут никаких обязательств по данному Договору
+						страхования. Действие Федерального закона «О страховании вкладов физических лиц в банках
+						Российской Федерации» не распространяется на данную программу. Данный вид страхования не
+						является инвестиционным и не предусматривает возврата страховых взносов за прошедший период
+						страхования. Если Страхователь решит отказаться от Договора страхования в течение 3 (Тридцати)
+						календарных дней с даты начала действия Договора страхования, при отсутствии в данном периоде
+						страховых случаев уплаченный страховой взнос полностью возвращается.
+						АО КБ «Ситибанк» может получать комиссионное вознаграждение от страховой компании, выплачиваемое
+						исходя из вышеуказанного страхового взноса, для покрытия административных расходов.<br /><br />
+						АО КБ «Ситибанк».</span>
+				</td>
+			</tr>
+			<!-- lock and rules -->
+			<tr>
+				<td align="center" valign="top" bgcolor="#eeeeee" style="padding-bottom: 26px;">
+					<table width="100%" cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td class="lr-padding" align="center" valign="top">
+								<table width="100%">
+									<tr>
+										<td align="center" valign="top">
+											<table width="100%" cellpadding="0" cellspacing="0" border="0">
+												<tr>
+													<td width="35" align="center" valign="middle"
+														style="padding: 30px;">
+														<img src="https://i.postimg.cc/HnxhPjQW/big-lock.png" width="30"
+															height="33"
+															style="margin:0; padding:0; border:none; display:block;"
+															border="0" class="big-lock-img" alt="Big lock" />
+													</td>
+													<td class="big-lock__text" align="left" valign="top">
+														<span class="big-lock">Когда сотрудники Ситибанка звонят
+															клиентам, они
+															никогда не запрашивают кодовое слово или номер карты.
+														</span><br /><br />
+														<span class="big-lock"> Никому не сообщайте свой ПИН-код,
+															трехзначный код на
+															оборотной
+															стороне карты, ТПИН и одноразовые пароли из
+															СМС.</span><br /><br />
+														<span class="big-lock">Всегда просматривайте сообщения об
+															операциях по
+															счетам, поступающие от
+															Ситибанка на мобильный телефон или электронную почту, и
+															незамедлительно
+															извещайте Ситибанк о несанкционированных
+															операциях.</span><br /><br />
+														<span class="big-lock__blue">Узнайте больше о правилах
+															безопасности.</span>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<!-- block apps and social -->
+			<tr>
+				<td align="center" valign="top">
+					<table width="100%" cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td align="center" valign="top" class="two-columns-apps">
+								<!-- apps block -->
+								<table width="100%" class="column-apps" cellpadding="0" cellspacing="0" border="0">
+									<tr>
+										<td align="center" valign="top" class="pd-apps">
+											<table width="100%" cellpadding="0" cellspacing="0" border="0">
+												<tr>
+													<td align="center" valign="top" style="padding-bottom: 10px;">
+														<span class="apps-text">Скачайте приложение CITI Mobile®</span>
+													</td>
+												</tr>
+												<tr>
+													<td align="center" valign="top">
+														<table width="100%" cellpadding="0" cellspacing="0" border="0">
+															<tr>
+																<td align="center" valign="top">
+																	<a style="padding-right: 5px;" href="#"><img
+																			src="https://i.postimg.cc/yd75cLxZ/app-store.png"
+																			width="138" height="41"
+																			alt="App store" /></a>
+																</td>
+																<td>
+																	<a href="#"><img
+																			src="https://i.postimg.cc/KzcqR4p7/google-play.png"
+																			width="138" height="41"
+																			alt="google play" /></a>
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+								<!-- social block -->
+								<table width="100%" class="column-apps-soc">
+									<tr>
+										<td class="pd-soc" align="center" valign="top">
+											<table width="100%" cellpadding="0" cellspacing="0" border="0">
+												<tr>
+													<td align="center" valign="top" style="padding-bottom: 10px;">
+														<span class="apps-text">ПРИСОЕДИНЯЙТЕСЬ К НАМ</span>
+													</td>
+												</tr>
+												<tr>
+													<td width="250" class="social-td" align="center" valign="top">
+														<a href="#"><img src="https://i.postimg.cc/MHv9mNSv/fb.png"
+																width="40" height="40" alt="Facebook" /></a>
+														<a href="#"><img src="https://i.postimg.cc/v84RzSXr/vk.png"
+																width="40" height="40" alt="Vkontakte" /></a>
+														<a href="#"><img src="https://i.postimg.cc/3JGsM4sW/ytb.png"
+																width="40" height="40" alt="Youtube" /></a>
+														<a href="#"><img src="https://i.postimg.cc/Mpk919rp/insta.png"
+																width="40" height="40" alt="Instagram" /></a>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<!-- recommend and button -->
+			<tr>
+				<td align="center" valign="top" bgcolor="#eeeeee" style="padding-top: 20px;padding-bottom: 10px;">
+					<span>Рекомендуйте СИТИБАНК и получайте вознаграждения!</span>
+				</td>
+			</tr>
+			<!-- recomend-button -->
+			<tr>
+				<td align="center" valign="top" bgcolor="#eeeeee" style="padding-bottom: 20px;">
+					<table cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td align="center" valign="middle" width="230" height="30" style="font-family: Arial;font-style: normal;font-weight: bold;
+							font-size: 12px;line-height: 14px;background: #002A54;text-align: center;color: #FFFFFF">
+								<a href="https://www.citibank.ru/l/eMGMFooter" target="_blank"
+									style="font-family: Arial, sans-serif; color:#ffffff; display: inline-block; text-decoration: none; line-height:44px; width:200px; font-weight:bold;white-space: nowrap;padding-left: 5px;padding-right: 5px;">Рекомендовать
+									в приложении</a>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<!-- pay by card -->
+			<tr>
+				<td align="center" valign="top" style="padding-top: 24px;padding-bottom: 24px;">
+					<table width="100%" cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td align="center" valign="top">
+								<span style="font-family: Arial;font-style: normal;font-weight: normal;font-size: 14px;
+							line-height: 16px;text-align: center;text-transform: uppercase;color: #333333;">ОПЛАЧИВАЙТЕ ПОКУПКИ КАРТАМИ
+									СИТИБАНКА С APPLE PAY</span>
+							</td>
+						</tr>
+						<tr>
+							<td align="center" valign="top" style="padding-top: 20px;">
+								<table cellpadding="0" cellspacing="0" border="0">
+									<tr>
+										<td align="center" valign="middle" height="30" style="padding-right: 20px;">
+											<img src="https://i.postimg.cc/2579knG8/icon-pay.png" width="109.44"
+												height="30" style="margin:0; padding:0; border:none; display:block;"
+												border="0" class="icon-pay-img" alt="icon pay" />
+										</td>
+
+										<td align="center" valign="middle" width="100" height="30"
+											style="background: #002A54;">
+											<a href="#" target="_blank"
+												style="font-family: Arial, sans-serif; color:#ffffff;font-size: 12px; display: inline-block; text-decoration: none;font-weight:bold;padding-left: 5px;padding-right: 5px;">Подробнее</a>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<!-- footer -->
+			<tr>
+				<td align="center" valign="top" bgcolor="#eeeeee">
+					<table width="100%">
+						<!-- unsubscribe -->
+						<tr>
+							<td class="unsub" align="center" valign="top">
+								<span style="font-family: Arial;font-style: normal;font-weight: normal;font-size: 12px;line-height: 14px;
+				color: #666666;">Если Вы хотите отказаться от получения подобных рассылок по электронной почте, зайдите в раздел
+									«Мой профиль» в системе Citibank® Online (Онлайн) или пройдите по этой <a
+										style="color:#056dae;text-decoration:none;" href="#">ссылке</a>.</span>
+							</td>
+						</tr>
+						<!-- seporate line -->
+						<tr>
+							<td align="center" valign="top">
+								<table width="100%" align="center" cellpadding="0" cellspacing="0" border="0"
+									style="max-width: 540px;">
+									<tr>
+										<td height="1"
+											style="font-size:1px; line-height:1px;background-color: #bfbfbf;">
+											&nbsp;</td>
+									</tr>
+								</table>
+
+							</td>
+						</tr>
+						<!-- footer links -->
+						<tr>
+							<td align="center" valign="top"
+								style="padding-top: 19px;padding-right: 5px; padding-bottom: 33px;padding-left: 5px;">
+								<table width="100%" align="center" cellpadding="0" cellspacing="0" border="0"
+									style="max-width: 540px;">
+									<tr>
+										<td class="f-city" width="85" align="center" valign="top">
+											<a style="font-family: Arial;font-style: normal;font-weight: normal;font-size: 12px;
+										line-height: 14px;color: #056DAE;text-decoration:none;" href="https://www.citibank.ru">www.citibank.ru</a>
+										</td>
+										<td class="f-city-text" width="436" align="right" valign="top"
+											style="text-align: end;">
+											<a style="font-family: Arial;font-style: normal;font-weight: normal;font-size: 12px;
+										line-height: 14px;color: #056DAE;text-decoration:none;"
+												href="https://www.citibank.ru/russia/main/rus/promise.htm?ref=m">Соблюдение
+												неприкосновенности частной жизни</a><br />
+											<a style="font-family: Arial;font-style: normal;font-weight: normal;font-size: 12px;
+												line-height: 14px;color: #056DAE;text-decoration:none;display: inline-block;padding-bottom: 10px;"
+												href="https://www.citibank.ru/russia/main/rus/disclamer.htm?ref=m">Условия,
+												предостережения и оговорки</a><br />
+											<span style="font-family: Arial;font-style: normal;font-weight: normal;font-size: 12px;line-height: 14px;
+								text-align: right;">Копирайт © 2002–2021 Citigroup Inc. </span>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+
+
+			<!-- end -->
+
+
+		</table>
+	</center>
+</body>
+
+</html>
